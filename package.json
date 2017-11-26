@@ -1,0 +1,36 @@
+{
+  "name": "envsubstr",
+  "version": "0.0.1",
+  "description": "Simple envsubstr for Node",
+  "author": "Henrik Lundgren",
+  "license": "MIT",
+  "main": "parser.js",
+  "preferGlobal": true,
+  "bin": {
+    "envsubstr": "index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "doc": "jsdoc2md index.js parser.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henriklundgren/envsubstr"
+  },
+  "bugs": {
+    "url": "https://github.com/henriklundgren/envsubstr/issues"
+  },
+  "homepage": "https://github.com/henriklundgren/envsubstr#readme",
+  "keywords": [
+    "envsub",
+    "envsubstr",
+    "env"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "jest": "^21.2.1",
+    "jsdoc-to-markdown": "^3.0.2"
+  },
+  "engine": "node >= 6.10.2"
+}
